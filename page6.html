@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enhypen Quiz</title>
+        <link rel="stylesheet" href="styles2.css">
+    </head>
+    <body>
+        <header class="mainheader">
+            <img src="EN- logo.png" alt="group Logo" width="150">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page1.html">About Group</a></li>
+                <li><a href="page2.html">Concert</a></li>
+                <li><a href="page3.html">Albums</a></li>
+                <li><a href="page4.html">Merch</a></li>
+                <li><a href="page5.html">Photos</a></li>
+                
+            </ul>
+        </nav>
+        <main>
+            <h1>Congratulations! You have found the secret page! Ready to test your Enhypen knowledge?</h1>
+            <br>
+            
+            <form>
+                <h3>User Information</h3>
+                <label for="firstName">Enter Your Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter Your Name" required>
+                <br><br>
+                
+                <label for="stanned">How Long Have You Stanned Enhypen For?:</label>
+                <input type="text" id="stanned" name="stanned" placeholder="Enter How Long You Have Stanned" required>
+                <br><br>
+                
+                <label for="debutdate">Enter the Date of Enhypen's debut:</label>
+                <input type="date" id="debutdate" name="debutdate">
+                <br><br>
+        
+                <hr>
+        
+                <h3>The Quiz Questions</h3>
+        
+                <!-- QUESTION 1: FANDOM NAME -->
+                <p><strong>1. What Is The Fandom Name?</strong></p>
+                <input type="radio" name="fandom" id="fandom-stay" value="Stay">
+                <label for="fandom-stay">Stay</label><br>
+                
+                <input type="radio" name="fandom" id="fandom-engene" value="Engene">
+                <label for="fandom-engene">Engene</label><br>
+                
+                <input type="radio" name="fandom" id="fandom-carat" value="Carat">
+                <label for="fandom-carat">Carat</label><br>
+                
+                <input type="radio" name="fandom" id="fandom-moa" value="Moa">
+                <label for="fandom-moa">Moa</label><br>
+                
+                <input type="radio" name="fandom" id="fandom-blink" value="Blink">
+                <label for="fandom-blink">Blink</label><br>
+        
+                <!-- Messages for Question 1 -->
+                <div class="quiz-feedback correct-fandom">Correct! Engene is the right answer! 🎉</div>
+                <div class="quiz-feedback wrong-fandom">Incorrect, it was Engene ❌</div>
+        
+                <br>
+        
+                <!-- QUESTION 2: OLDEST MEMBER -->
+                <p><strong>2. Who Is The Oldest In Enhypen?</strong></p>
+                <input type="radio" name="oldest" id="oldest-jake" value="Jake">
+                <label for="oldest-jake">Jake</label><br>
+                
+                <input type="radio" name="oldest" id="oldest-sunoo" value="Sunoo">
+                <label for="oldest-sunoo">Sunoo</label><br>
+                
+                <input type="radio" name="oldest" id="oldest-heeseung" value="Heeseung">
+                <label for="oldest-heeseung">Heeseung</label><br>
+                
+                <input type="radio" name="oldest" id="oldest-jungwon" value="Jungwon">
+                <label for="oldest-jungwon">Jungwon</label><br>
+                
+                <input type="radio" name="oldest" id="oldest-jay" value="Jay">
+                <label for="oldest-jay">Jay</label><br>
+                
+                <input type="radio" name="oldest" id="oldest-niki" value="Niki">
+                <label for="oldest-niki">Ni-ki</label><br>
+                
+                <input type="radio" name="oldest" id="oldest-sunghoon" value="Sunghoon">
+                <label for="oldest-sunghoon">Sunghoon</label><br>
+        
+                <!-- Messages for Question 2 -->
+                <div class="quiz-feedback correct-oldest">Correct! Heeseung is the oldest! 👑</div>
+                <div class="quiz-feedback wrong-oldest">❌ Aw shucks, the answer was Heeseung</div>
+        
+                <br>
+        
+                <!-- QUESTION 3: LEADER -->
+                <p><strong>3. Who Is The Leader In Enhypen?</strong></p>
+                <input type="radio" name="leader" id="leader-jay" value="Jay">
+                <label for="leader-jay">Jay</label><br>
+                
+                <input type="radio" name="leader" id="leader-jungwon" value="Jungwon">
+                <label for="leader-jungwon">Jungwon</label><br>
+                
+                <input type="radio" name="leader" id="leader-sunghoon" value="Sunghoon">
+                <label for="leader-sunghoon">Sunghoon</label><br>
+                
+                <input type="radio" name="leader" id="leader-sunoo" value="Sunoo">
+                <label for="leader-sunoo">Sunoo</label><br>
+                
+                <input type="radio" name="leader" id="leader-jake" value="Jake">
+                <label for="leader-jake">Jake</label><br>
+                
+                <input type="radio" name="leader" id="leader-heeseung" value="Heeseung">
+                <label for="leader-heeseung">Heeseung</label><br>
+                
+                <input type="radio" name="leader" id="leader-niki" value="Niki">
+                <label for="leader-niki">Ni-ki</label><br>
+        
+                <!-- Dynamic Messages for Question 3 -->
+                <div class="quiz-feedback correct-leader">Correct! Jungwon is the reliable leader! 🌟</div>
+                <div class="quiz-feedback wrong-leader"> ❌ It was Jungwon, you'll get it next time!</div>
+        
+                <br>
+        
+                <!-- QUESTION 4: YOUNGEST -->
+                <p><strong>4. Who Is The Youngest In Enhypen?</strong></p>
+                <input type="radio" name="youngest" id="youngest-sunoo" value="Sunoo">
+                <label for="youngest-sunoo">Sunoo</label><br>
+                
+                <input type="radio" name="youngest" id="youngest-niki" value="Niki">
+                <label for="youngest-niki">Ni-ki</label><br>
+                
+                <input type="radio" name="youngest" id="youngest-heeseung" value="Heeseung">
+                <label for="youngest-heeseung">Heeseung</label><br>
+                
+                <input type="radio" name="youngest" id="youngest-jay" value="Jay">
+                <label for="youngest-jay">Jay</label><br>
+                
+                <input type="radio" name="youngest" id="youngest-sunghoon" value="Sunghoon">
+                <label for="youngest-sunghoon">Sunghoon</label><br>
+                
+                <input type="radio" name="youngest" id="youngest-jake" value="Jake">
+                <label for="youngest-jake">Jake</label><br>
+                
+                <input type="radio" name="youngest" id="youngest-jungwon" value="Jungwon">
+                <label for="youngest-jungwon">Jungwon</label><br>
+        
+                <!-- Dynamic Messages for Question 4 -->
+                <div class="quiz-feedback correct-youngest">Correct! Ni-ki is the talented maknae! 🐣</div>
+                <div class="quiz-feedback wrong-youngest">❌ Good try! The answer was Niki.</div>
+        
+                <br><hr><br>
+        
+                <h3>Personal Preferences</h3>
+                <p>Select Who Your Bias is:</p>
+                <input type="radio" name="member" id="opt-heeseung" value="Heeseung">
+                <label for="opt-heeseung">Heeseung</label><br>
+                <input type="radio" name="member" id="opt-jay" value="Jay">
+                <label for="opt-jay">Jay</label><br>
+                <input type="radio" name="member" id="opt-jake" value="Jake">
+                <label for="opt-jake">Jake</label><br>
+                <input type="radio" name="member" id="opt-sunghoon" value="Sunghoon">
+                <label for="opt-sunghoon">Sunghoon</label><br>
+                <input type="radio" name="member" id="opt-sunoo" value="Sunoo">
+                <label for="opt-sunoo">Sunoo</label><br>
+                <input type="radio" name="member" id="opt-jungwon" value="Jungwon">
+                <label for="opt-jungwon">Jungwon</label><br>
+                <input type="radio" name="member" id="opt-niki" value="Niki">
+                <label for="opt-niki">Ni-ki</label><br>
+                <br>
+        
+                <label for="reason">Enter Why You Chose That Person:</label><br>
+                <textarea name="reason" id="reason" cols="30" rows="5" required></textarea>
+                
+                <br><br>
+                <input type="submit" value="Submit Quiz">
+                <input type="reset" value="Reset Form">
+            </form>
+            
+            <br>
+            <a href="page7.html">Click Here To See Your Prize After Completing This Quiz!</a>
+        </main>
+        
+        </body>
+        </style>
+        </html>
